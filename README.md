@@ -3,4 +3,5 @@
 开发环境：
 
 - JDK 8
-- IDE：Intellij IDEA
+- Intellij IDEA
+
