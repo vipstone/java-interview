@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5002a470-4aa9-471d-a572-b0efae5a4037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="135">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -42,8 +42,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="567">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="911">
+              <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -100,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_02.java" />
         <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_03.java" />
         <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_04.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java" />
       </list>
     </option>
   </component>
@@ -161,20 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ch1_02_04">
-    <configuration name="Ch1_02_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.ch1.Ch1_02_01" />
-      <module name="interview-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.ch1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ch1_03_01">
     <configuration name="Ch1_02_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.ch1.Ch1_02_02" />
       <module name="interview-demo" />
@@ -216,6 +220,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ch1_03_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.ch1.Ch1_03_01" />
+      <module name="interview-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.ch1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview-demo" />
@@ -228,18 +245,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Ch1_02_01" />
       <item itemvalue="Application.Ch1_02_02" />
       <item itemvalue="Application.Ch1_02_03" />
       <item itemvalue="Application.Ch1_02_04" />
+      <item itemvalue="Application.Ch1_03_01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ch1_03_01" />
         <item itemvalue="Application.Ch1_02_04" />
         <item itemvalue="Application.Ch1_02_03" />
         <item itemvalue="Application.Ch1_02_02" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Ch1_02_01" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +273,9 @@
       <workItem from="1554642720467" duration="5022000" />
       <workItem from="1554677526344" duration="2252000" />
       <workItem from="1554765351716" duration="660000" />
-      <workItem from="1554900680337" duration="1490000" />
+      <workItem from="1554900680337" duration="2256000" />
+      <workItem from="1555120686044" duration="9575000" />
+      <workItem from="1555137486385" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="去掉无用代码">
       <created>1554644558498</created>
@@ -265,17 +284,33 @@
       <option name="project" value="LOCAL" />
       <updated>1554644558498</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add example">
+      <created>1554904396423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554904396423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9424000" />
+    <option name="totallyTimeSpent" value="21321000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,11 +323,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917467" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917467" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32917467" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32917467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -311,7 +346,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去掉无用代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="去掉无用代码" />
+    <MESSAGE value="add example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add example" />
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://JAVA/java.lang.String">
@@ -405,8 +441,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -417,17 +460,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_02.java">
+    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_04.java">
+    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="911">
+          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
