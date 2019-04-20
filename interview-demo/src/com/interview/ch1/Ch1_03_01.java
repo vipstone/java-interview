@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class Ch1_03_01 {
     public static void main(String[] args) {
-        /**
+        /*
          * 模块代码
          */
 //        String s1 = "laowang";
@@ -18,7 +18,7 @@ public class Ch1_03_01 {
 //        System.out.println(s1 == s2);
 //        System.out.println(s1 == s3);
 
-        /**
+        /*
          * 模块代码
          */
 //        String s1 = "hi," + "lao" + "wang";
@@ -31,21 +31,21 @@ public class Ch1_03_01 {
 //        System.out.println(s2 == s3);
 
 
-        /**
+        /*
          * 模块代码
          */
 //        String str = new String("laowang");
 //        change(str);
 //        System.out.println(str);
 
-        /**
+        /*
          * 模块代码
          */
 //        StringBuffer sb = new StringBuffer("hi,");
 //        changeSb(sb);
 //        System.out.println(sb);
 
-        /**
+        /*
          * 模块代码
          */
 //        String str = "abcdef";
@@ -54,13 +54,13 @@ public class Ch1_03_01 {
 //        // 结果：cd（从下标为2的开始截取到下标为4的，包含开始下标不包含结束下标）
 //        System.out.println(str.substring(2, 4));
 
-        /**
+        /*
          * 模块代码
          */
 //        String str = String.format("我叫%s，今年%d岁，喜欢%s", "老王", 30, "读书");
 //        System.out.println(str);
 
-        /**
+        /*
          * 模块代码
          */
 //        String s1 = "hi," + "lao" + "wang";
@@ -72,7 +72,7 @@ public class Ch1_03_01 {
 //        System.out.println(s1.equals(s3));
 //        System.out.println(s2.equals(s3));
 
-        /**
+        /*
          * 模块代码
          */
 //        String s1 = "Hi,laowang";
@@ -80,7 +80,7 @@ public class Ch1_03_01 {
 //        System.out.println(s1.equals(s2)); // false
 //        System.out.println(s1.equalsIgnoreCase(s2)); // true
 
-        /**
+        /*
          * 模块代码
          */
 //        StringBuilder sb = new StringBuilder("lao");
@@ -92,12 +92,12 @@ public class Ch1_03_01 {
 //        sb.setCharAt(0, 'H'); // Hi,laowang
 //        System.out.println(sb);
 
-        /**
+        /*
          * 模块代码
          */
 //        String str = "abcdef";
 //        System.out.println(str.substring(3, 3));
-        /**
+        /*
          * 模块代码
          */
 //        String s1 = "1";
@@ -109,7 +109,7 @@ public class Ch1_03_01 {
         System.out.println(s1 == s2);
     }
 
-    /**
+    /*
      * 修改 StringBuffer
      *
      * @param sb
@@ -118,7 +118,7 @@ public class Ch1_03_01 {
         sb.append("laowang");
     }
 
-    /**
+    /*
      * 修改字符串
      *
      * @param str

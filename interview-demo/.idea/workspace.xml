@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5002a470-4aa9-471d-a572-b0efae5a4037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_01.java" afterDir="false" />
+    <list default="true" id="5002a470-4aa9-471d-a572-b0efae5a4037" name="Default Changelist" comment="add example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_02.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="162">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -51,11 +52,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="263">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2857#2858#0" expanded="true" />
+                <element signature="e#2808#2809#0" expanded="true" />
+                <element signature="e#2844#2845#0" expanded="true" />
+                <element signature="e#2956#2957#0" expanded="true" />
                 <element signature="e#2988#2989#0" expanded="true" />
               </folding>
             </state>
@@ -63,10 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_01.java">
+        <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="108">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -74,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://X:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="50031">
               <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
             </state>
           </provider>
@@ -112,9 +115,11 @@
       <find>cache</find>
       <find>IntegerCache.cache</find>
       <find>db</find>
+      <find>/**</find>
     </findStrings>
     <replaceStrings>
       <replace>num</replace>
+      <replace>/*</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -132,8 +137,9 @@
         <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_02.java" />
         <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_03.java" />
         <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_04.java" />
-        <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java" />
         <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_01.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_02.java" />
       </list>
     </option>
   </component>
@@ -149,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -172,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,21 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ch1_04_01">
-    <configuration name="Ch1_02_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.ch1.Ch1_02_02" />
-      <module name="interview-demo" />
-      <option name="VM_PARAMETERS" value="-XX:AutoBoxCacheMax=666" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.ch1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ch1_04_02">
     <configuration name="Ch1_02_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.ch1.Ch1_02_03" />
       <module name="interview-demo" />
@@ -264,20 +256,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ch1_04_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.ch1.Ch1_04_02" />
+      <module name="interview-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.ch1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Ch1_02_02" />
       <item itemvalue="Application.Ch1_02_03" />
       <item itemvalue="Application.Ch1_02_04" />
       <item itemvalue="Application.Ch1_03_01" />
       <item itemvalue="Application.Ch1_04_01" />
+      <item itemvalue="Application.Ch1_04_02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ch1_04_02" />
         <item itemvalue="Application.Ch1_04_01" />
         <item itemvalue="Application.Ch1_03_01" />
         <item itemvalue="Application.Ch1_02_04" />
         <item itemvalue="Application.Ch1_02_03" />
-        <item itemvalue="Application.Ch1_02_02" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +301,8 @@
       <workItem from="1554765351716" duration="660000" />
       <workItem from="1554900680337" duration="2256000" />
       <workItem from="1555120686044" duration="9575000" />
-      <workItem from="1555137486385" duration="13104000" />
+      <workItem from="1555137486385" duration="13769000" />
+      <workItem from="1555760557825" duration="6055000" />
     </task>
     <task id="LOCAL-00001" summary="去掉无用代码">
       <created>1554644558498</created>
@@ -326,11 +332,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555156522561</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add example">
+      <created>1555239214124</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555239214124</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32869000" />
+    <option name="totallyTimeSpent" value="39589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,7 +358,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,7 +367,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5278311" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37236086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,6 +487,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://X:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50031">
+          <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -483,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -495,6 +515,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2808#2809#0" expanded="true" />
+            <element signature="e#2844#2845#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#2988#2989#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_02_04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -502,29 +536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://X:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_03_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/interview/ch1/Ch1_04_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="108">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
