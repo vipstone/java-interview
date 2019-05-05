@@ -4,4 +4,5 @@
 
 - JDK 8
 - Intellij IDEA
+- Windows 10
 
