@@ -2,7 +2,10 @@ package com.interview.ch1;
 
 import com.sun.deploy.util.StringUtils;
 
+import java.time.Instant;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Description 第一章 第七节 代码示例
@@ -46,6 +49,38 @@ public class Ch1_07 {
 //        String str3 = StringUtils.join(Arrays.asList(arr), ","); // 使用英文逗号分隔
 //        System.out.println(str3);
 
+        /*
+         * 数组初始化
+         */
+//        // 初始化方式一
+//        int[] arr = new int[5];
+//        // 初始化方式二
+//        int[] arr2 = new int[]{1, 2, 3, 4, 5};
+//        // 初始化方式二的延伸版，可省略 new int[] 直接赋值
+//        int[] arr3 = {1, 2, 3, 4, 5};
+
+        /*
+         * 数组遍历
+         */
+//        Integer[] arr = {2, 3, 6, 7, 9};
+//        // 方式一：传统 for
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.println(arr[i]);
+//        }
+//        // 方式二：for each
+//        for (int i : arr) {
+//            System.out.println(i);
+//        }
+//        // 方式三：jdk 8 Limbda
+//        Arrays.asList(arr).forEach(x -> System.out.println(x));
+
+        /*
+         * 初始化数组面试题
+         */
+        int[] intArr = new int[3];
+        String[] StrArr = new String[3];
+        System.out.println(intArr[1]);
+        System.out.println(StrArr[1]);
 
 
     }
