@@ -21,9 +21,9 @@ public class Ch1_07 {
         /*
          * 数组传参示例
          */
-//        int[] arr = {2, 3, 4, 8};
-//        change(arr);
-//        System.out.println(arr[2]);
+        int[] arr = {2, 3, 4, 8};
+        change(arr);
+        System.out.println(arr[2]);
 
         /*
          * 字符串转数组
@@ -150,10 +150,98 @@ public class Ch1_07 {
 //        Arrays.fill(arr, 6);
 //        System.out.println(Arrays.toString(arr));
 
-        int[] arr = {2, 8, 13, 11, 6, 7};
+        /*
+         * 数组合并
+         */
+//        int[] arr = {2, 8, 13, 11, 6, 7};
+//        int[] arr2 = {66, 88};
+//        // 合并数组
+//        int[] arr3 = org.apache.commons.lang3.ArrayUtils.addAll(arr, arr2);
+//        System.out.println(Arrays.toString(arr3));
+
+        /*
+         * 数组正序和逆序
+         */
+//        int[] arr = {2, 8, 13, 11, 6, 7};
+//        // 数组正序（排序）
 //        Arrays.sort(arr);
-        org.apache.commons.lang3.ArrayUtils.reverse(arr);
-        System.out.println(Arrays.toString(arr));
+//        // 数组逆序
+//        org.apache.commons.lang3.ArrayUtils.reverse(arr);
+//        System.out.println(Arrays.toString(arr));
+
+        /*
+         * 字符串数组某个值查询
+         */
+//        String[] arr = {"doc", "pig", "cat"};
+//        // 方式一：Arrays.asList(array).contains
+//        boolean bool = Arrays.asList(arr).contains("cat");
+//        System.out.println(bool);
+//        // 方式二：Arrays.binarySearch
+//        Arrays.sort(arr);
+//        boolean bool2 = Arrays.binarySearch(arr, "cat") > -1;
+//        System.out.println(bool2);
+
+        /*
+         * Arrays.binarySearch 使用
+         */
+//        int[] arr = {1, 3, 4, 5};
+//        // Arrays.binarySearch() 使用二分法查询某值
+//        int index = Arrays.binarySearch(arr, 5);
+//        System.out.println(index);
+
+        /*
+         * 冒泡排序
+         */
+//        int[] arr = {2, 8, 13, 11, 6, 7};
+//        System.out.println("排序前：" + Arrays.toString(arr));
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr.length; j++) {
+//                if (arr[i] > arr[j]) {
+//                    // 元素交换
+//                    int temp = arr[i];
+//                    arr[i] = arr[j];
+//                    arr[j] = temp;
+//                }
+//            }
+//        }
+//        System.out.println("排序后：" + Arrays.toString(arr));
+
+        /*
+         * 选择排序
+         */
+//        int[] arr = {2, 8, 13, 11, 6, 7};
+//        System.out.println("排序前：" + Arrays.toString(arr));
+//        for (int i = 0; i < arr.length; i++) {
+//            int lowerIndex = i;
+//            for (int j = i + 1; j < arr.length; j++) {
+//                // 找出最小的一个索引
+//                if (arr[j] < arr[lowerIndex]) {
+//                    lowerIndex = j;
+//                }
+//            }
+//            // 交换
+//            int temp = arr[i];
+//            arr[i] = arr[lowerIndex];
+//            arr[lowerIndex] = temp;
+//        }
+//        System.out.println("排序后：" + Arrays.toString(arr));
+
+        /*
+         * 数组转集合
+         */
+//        String[] strArr = {"cat", "dog"};
+//        List list = Arrays.asList(strArr);
+//        System.out.println(list);
+
+        /*
+         * 集合转数组
+         */
+//        List<String> list = new ArrayList<String>();
+//        list.add("cat");
+//        list.add("dog");
+//        // 集合转换为数组
+//        String[] arr = list.toArray(new String[list.size()]);
+//        System.out.println(Arrays.toString(arr));
 
 
     }
