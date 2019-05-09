@@ -1,8 +1,3 @@
-# Java 面试系列代码示例
+## Java 面试题系列
 
-开发环境：
-
-- JDK 8
-- Intellij IDEA
-- Windows 10
 
