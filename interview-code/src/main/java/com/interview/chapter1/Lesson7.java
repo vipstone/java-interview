@@ -59,7 +59,7 @@ public class Lesson7 {
         /**********  Arrays.fill 填充值 **********/
         int[] fillArray = new int[5];
         // 给数组的所有元素分配一个值
-        Arrays.fill(arr, 9);
+        Arrays.fill(fillArray, 9);
         for (int i : fillArray) {
             System.out.println(i);
         }
