@@ -1,25 +1,15 @@
-package com.interview.ch1;
+package com.interview.chapter1;
 
 
-import java.sql.Timestamp;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.logging.SimpleFormatter;
 
 /**
  * @Description 第一章 第六节 代码示例
  * @Author wanglei
  * @Date 2019/5/2
- * @Param
- * @return
  **/
-public class Ch1_06 {
+public class Lesson6 {
     public static void main(String[] args) throws ParseException, InterruptedException {
 
         /*

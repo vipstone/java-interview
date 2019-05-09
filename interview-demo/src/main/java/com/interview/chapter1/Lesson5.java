@@ -1,20 +1,6 @@
-package com.interview.ch1;
+package com.interview.chapter1;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
-
-import javax.transaction.xa.XAException;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-
-/**
- * @Description 第一章 第5节 源码
- * @Author wanglei
- * @Date 2019/4/22
- **/
-public class Ch1_05_01 {
+public class Lesson5 {
     public static void main(String[] args) {
 
         /*

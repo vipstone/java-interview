@@ -1,13 +1,10 @@
-package com.interview.ch1;
+package com.interview.chapter1;
 
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * 第1章_03课_01 示例代码
  */
-public class Ch1_03_01 {
+public class Lesson3 {
     public static void main(String[] args) {
         /*
          * 模块代码

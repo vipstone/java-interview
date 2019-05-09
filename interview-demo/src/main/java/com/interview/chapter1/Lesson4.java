@@ -1,38 +1,39 @@
-package com.interview.ch1;
+package com.interview.chapter1;
 
-public class Ch1_04_02 {
+public class Lesson4 {
+    static int count = 0;
 
     public static void main(String[] args) {
-        /*
-         * 循环永远无法停下来的代码
-         */
-        for (float i = 0; i != 1; i += 0.1) {
-            System.out.println(i);
-        }
-
-        /*
-         * i++ / ++i 结果比对
-         */
-//        int i = 0;
-//        int i2 = i++;
-//        int j = 0;
-//        int j2 = ++j;
-//        System.out.println("i2=" + i2);
-//        System.out.println("j2=" + j2);
-
-        /*
-         * 浮点循环面试题
-         */
+        /******** 循环永远无法停下来 ********/
 //        for (float i = 0; i != 1; i += 0.1) {
-//            System.out.println("hi");
-//            if (i > 1) break;
+//            System.out.println(i);
 //        }
 
-        /*
-         * 条件运算符
-         */
-//        String s = 3 > 1 ? "三大于一" : "三小于一";
-//        System.out.println(s);
+        /******** ++i 在多线程下产生的混乱 ********/
+        new Thread() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 100000; i++) {
+                    System.out.println("thread:" + this.getName() + ",count=" + (++count));
+                }
+            }
+        }.start();
+        new Thread() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 100000; i++) {
+                    System.out.println("thread:" + this.getName() + ",count=" + (++count));
+                }
+            }
+        }.start();
+        /******** ++i 基本使用 ********/
+        int i = 1;
+        int i2 = ++i; // ++i 同等于 i=n+i;
+        System.out.println(i);  // 2
+        System.out.println(i2); // 2
+        /******** 条件运算符 ********/
+        String s = 3 > 1 ? "三大于一" : "三小于一";
+        System.out.println(s);
 
         /*
          * if 基础用法
