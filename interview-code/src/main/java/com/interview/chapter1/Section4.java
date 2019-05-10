@@ -1,6 +1,6 @@
 package com.interview.chapter1;
 
-public class Lesson4 {
+public class Section4 {
     static int count = 0;
 
     public static void main(String[] args) {

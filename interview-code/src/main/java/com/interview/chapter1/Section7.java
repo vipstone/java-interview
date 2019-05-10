@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Lesson7 {
+public class Section7 {
     public static void main(String[] args) {
         /********** 数组传参示例 **********/
         int[] intArray = {2, 3, 4, 8};

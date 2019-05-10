@@ -1,6 +1,6 @@
 package com.interview.chapter1;
 
-public class Lesson2 {
+public class Section2 {
     public static void main(String[] args) {
         /************* 极值查询打印 ************/
         System.out.println(String.format("Byte：%d ~ %d", Byte.MIN_VALUE, Byte.MAX_VALUE));  // -128 ~ 127

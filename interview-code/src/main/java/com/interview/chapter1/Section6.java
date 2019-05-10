@@ -15,7 +15,7 @@ import java.util.Date;
  * @Author wanglei
  * @Date 2019/5/2
  **/
-public class Lesson6 {
+public class Section6 {
     public static void main(String[] args) throws ParseException, InterruptedException {
         /********** 获取当前时间的几种方式 **********/
         Date date = new Date(); // 获取当前日期

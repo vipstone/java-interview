@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Lesson5 {
+public class Section5 {
     public static void main(String[] args) {
         /******** try-catch-finally 基本使用 ********/
         try {
