@@ -1,6 +1,6 @@
 package com.interview.chapter2;
 
-public class Section1 implements Cloneable {
+public class Section1  {
     public static void main(String[] args) throws CloneNotSupportedException {
         /********** 克隆 **********/
         CloneTest ct = new CloneTest();
@@ -19,7 +19,6 @@ public class Section1 implements Cloneable {
  **/
 class CloneTest implements Cloneable {
     int num;
-
     public static void main(String[] args) throws CloneNotSupportedException {
         CloneTest ct = new CloneTest();
         ct.num = 666;
@@ -27,7 +26,6 @@ class CloneTest implements Cloneable {
         CloneTest ct2 = (CloneTest) ct.clone();
         System.out.println(ct2.num);
     }
-
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
