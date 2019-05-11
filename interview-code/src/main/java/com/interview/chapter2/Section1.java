@@ -1,36 +1,32 @@
 package com.interview.chapter2;
 
-import static java.lang.System.*;
-
-class staticTest {
-    public static void main(String[] args) {
-        out.println("hi");
+public class Section1 implements Cloneable {
+    public static void main(String[] args) throws CloneNotSupportedException {
+        CloneTest ct = new CloneTest();
+        ct.num = 666;
+        System.out.println(ct.num);
+        CloneTest ct2 = (CloneTest) ct.clone();
+        System.out.println(ct2.num);
     }
 }
 
-class Cat {
-    // 构造方法
-    public Cat(String name, int age) {
-        this.name = name;
-        this.age = age;
+/**
+ * @Description 克隆实现
+ **/
+class CloneTest implements Cloneable {
+    int num;
+
+    public static void main(String[] args) throws CloneNotSupportedException {
+        CloneTest ct = new CloneTest();
+        ct.num = 666;
+        System.out.println(ct.num);
+        CloneTest ct2 = (CloneTest) ct.clone();
+        System.out.println(ct2.num);
     }
 
-    private String name;
-    private int age;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
+
