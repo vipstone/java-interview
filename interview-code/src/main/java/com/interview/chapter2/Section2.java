@@ -59,36 +59,36 @@ interface AnonymityOutter {
     void hi();
 }
 
-class EnumTest {
-    public static void main(String[] args) {
-        /*********** 枚举使用 **********/
-        ColorEnum color = ColorEnum.GREEN;
-        switch (color) {
-            case RED:
-                System.out.println("Red");
-                break;
-            case BLUE:
-                System.out.println("Blue");
-                break;
-            case YELLOW:
-                System.out.println("Yellow");
-                break;
-            case GREEN:
-                System.out.println("Green");
-                break;
-            default:
-                break;
-        }
-        /*********** 枚举比较 **********/
-        ColorEnum redColor = ColorEnum.RED;
-        ColorEnum redColor2 = ColorEnum.RED;
-        System.out.println(redColor == redColor2);
-        System.out.println(redColor.equals(redColor2));
-        /*********** 枚举扩展方法 **********/
-        System.out.println(ColorsEnum.RED.getName());
-        System.out.println(ColorsEnum.RED.getIndex());
-    }
-}
+//class EnumTest {
+//    public static void main(String[] args) {
+//        /*********** 枚举使用 **********/
+//        ColorEnum color = ColorEnum.GREEN;
+//        switch (color) {
+//            case RED:
+//                System.out.println("Red");
+//                break;
+//            case BLUE:
+//                System.out.println("Blue");
+//                break;
+//            case YELLOW:
+//                System.out.println("Yellow");
+//                break;
+//            case GREEN:
+//                System.out.println("Green");
+//                break;
+//            default:
+//                break;
+//        }
+//        /*********** 枚举比较 **********/
+//        ColorEnum redColor = ColorEnum.RED;
+//        ColorEnum redColor2 = ColorEnum.RED;
+//        System.out.println(redColor == redColor2);
+//        System.out.println(redColor.equals(redColor2));
+//        /*********** 枚举扩展方法 **********/
+//        System.out.println(ColorsEnum.RED.getName());
+//        System.out.println(ColorsEnum.RED.getIndex());
+//    }
+//}
 
 /*********** 无参数枚举类 **********/
 enum ColorEnum {
