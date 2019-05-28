@@ -3,10 +3,10 @@ package com.interview.chapter2;
 public class Section1 {
     public static void main(String[] args) throws CloneNotSupportedException {
         /********** 克隆 **********/
-        CloneTest ct = new CloneTest();
+        CloneInstance ct = new CloneInstance();
         ct.num = 666;
         System.out.println(ct.num);
-        CloneTest ct2 = (CloneTest) ct.clone();
+        CloneInstance ct2 = (CloneInstance) ct.clone();
         System.out.println(ct2.num);
         /********** 继承 **********/
         Animal cat = new Cat();
@@ -17,14 +17,14 @@ public class Section1 {
 /**
  * @Description 克隆实现
  **/
-class CloneTest implements Cloneable {
+class CloneInstance implements Cloneable {
     int num;
 
     public static void main(String[] args) throws CloneNotSupportedException {
-        CloneTest ct = new CloneTest();
+        CloneInstance ct = new CloneInstance();
         ct.num = 666;
         System.out.println(ct.num);
-        CloneTest ct2 = (CloneTest) ct.clone();
+        CloneInstance ct2 = (CloneInstance) ct.clone();
         System.out.println(ct2.num);
     }
 
