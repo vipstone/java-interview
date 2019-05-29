@@ -53,12 +53,6 @@ class CloneTest {
         System.out.println("bird child name:" + bird.birdChild.name);
         System.out.println("bird name 2:" + bird2.name);
         System.out.println("bird child name 2:" + bird2.birdChild.name);
-        /* 输出：
-            bird name:小鸟
-            bird child name:小小鸟
-            bird name 2:黄雀
-            bird child name 2:小黄雀
-         */
         // --------------------------深克隆（引用类型实现克隆）----------------------------
         ParrotChild parrotChild = new ParrotChild();
         parrotChild.name = "小鹦鹉";
@@ -73,12 +67,6 @@ class CloneTest {
         System.out.println("parrot child name:" + parrot.parrotChild.name);
         System.out.println("parrot name 2:" + parrot2.name);
         System.out.println("parrot child name 2:" + parrot2.parrotChild.name);
-        /* 输出：
-            parrot name:大鹦鹉
-            parrot child name:小鹦鹉
-            parrot name 2:老鹦鹉
-            parrot child name 2:少鹦鹉
-         */
 
         // -------------------------- 面试题 ----------------------------
         CloneObj cloneObj = new CloneObj();
