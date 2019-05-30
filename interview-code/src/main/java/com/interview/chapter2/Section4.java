@@ -1,5 +1,9 @@
 package com.interview.chapter2;
 
+import com.alibaba.fastjson.JSON;
+import com.caucho.hessian.io.HessianInput;
+import com.caucho.hessian.io.HessianOutput;
+
 import java.io.*;
 import java.util.Arrays;
 
@@ -92,6 +96,7 @@ class SerializableTest {
         user.setAge(30);
         System.out.println(user);
 
+//        // -------------------------- Java 原生序列化 ----------------------------
         // 创建输出流（序列化内容到磁盘）
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("test.out"));
         // 序列化对象
@@ -105,6 +110,23 @@ class SerializableTest {
         User user2 = (User) ois.readObject();
         ois.close();
         System.out.println(user2);
+
+        // -------------------------- JSON 序列化（fastjson） ----------------------------
+        String jsonSerialize = JSON.toJSONString(user);
+        User user3 = (User) JSON.parseObject(jsonSerialize, User.class);
+        System.out.println(user3);
+
+        // --------------------------  Hessian 序列化 ----------------------------
+        // 序列化
+        ByteArrayOutputStream bo = new ByteArrayOutputStream();
+        HessianOutput hessianOutput = new HessianOutput(bo);
+        hessianOutput.writeObject(user);
+        byte[] hessianBytes = bo.toByteArray();
+        // 反序列化
+        ByteArrayInputStream bi = new ByteArrayInputStream(hessianBytes);
+        HessianInput hessianInput = new HessianInput(bi);
+        User user4 = (User) hessianInput.readObject();
+        System.out.println(user4);
     }
 }
 
