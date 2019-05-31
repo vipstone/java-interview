@@ -96,7 +96,7 @@ class SerializableTest {
         user.setAge(30);
         System.out.println(user);
 
-//        // -------------------------- Java 原生序列化 ----------------------------
+        // -------------------------- Java 原生序列化 ----------------------------
         // 创建输出流（序列化内容到磁盘）
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("test.out"));
         // 序列化对象
