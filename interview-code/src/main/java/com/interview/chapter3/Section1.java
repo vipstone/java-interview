@@ -2,7 +2,7 @@ package com.interview.chapter3;
 
 import java.util.*;
 
-public class Section1 {
+class Section1 {
     public static void main(String[] args) {
         // -------------------------- Vector 使用代码 ----------------------------
         Vector vector = new Vector();
@@ -63,18 +63,56 @@ public class Section1 {
         List<String> list2 = Arrays.asList(arr);
         System.out.println(list2);
 
+        // -------------------------- Stack 后进先出演示代码 ----------------------------
+        Stack stack = new Stack();
+        stack.push("a");
+        stack.push("b");
+        stack.push("c");
+        for (int i = 0; i < 3; i++) {
+            // 移除并返回栈顶元素
+            System.out.println(stack.pop());
+        }
 
+        // -------------------------- 集合排序（Comparable/Comparator） ----------------------------
+        Dog[] dogs = new Dog[]{
+                new Dog("老旺财", 10),
+                new Dog("小旺财", 3),
+                new Dog("二旺财", 5),
+        };
+        // Comparable 排序
+        Arrays.sort(dogs);
+        // Comparator 排序
+        Arrays.sort(dogs, new Comparator<Dog>() {
+            @Override
+            public int compare(Dog o1, Dog o2) {
+                return o1.getAge() - o2.getAge();
+            }
+        });
+        for (Dog d : dogs) {
+            System.out.println(d.getName() + "：" + d.getAge());
+        }
+    }
+}
 
+class Dog implements Comparable<Dog> {
+    private String name;
+    private int age;
 
-//        // -------------------------- Stack 后进先出演示代码 ----------------------------
-//        Stack stack = new Stack();
-//        stack.push("a");
-//        stack.push("b");
-//        stack.push("c");
-//        for (int i = 0; i < 3; i++) {
-//            // 移除并返回栈顶元素
-//            System.out.println(stack.pop());
-//        }
+    @Override
+    public int compareTo(Dog o) {
+        return age - o.age;
+    }
 
+    public Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
     }
 }
