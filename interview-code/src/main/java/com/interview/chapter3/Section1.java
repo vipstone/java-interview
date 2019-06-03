@@ -79,22 +79,32 @@ class Section1 {
                 new Dog("小旺财", 3),
                 new Dog("二旺财", 5),
         };
-        // Comparable 排序
-        Arrays.sort(dogs);
+//        // Comparable 排序
+//        Arrays.sort(dogs);
         // Comparator 排序
-        Arrays.sort(dogs, new Comparator<Dog>() {
-            @Override
-            public int compare(Dog o1, Dog o2) {
-                return o1.getAge() - o2.getAge();
-            }
-        });
+        Arrays.sort(dogs,new DogComparator());
+//        // Comparator 排序（简化版）
+//        Arrays.sort(dogs, new Comparator<Dog>() {
+//            @Override
+//            public int compare(Dog o1, Dog o2) {
+//                return o1.getAge() - o2.getAge();
+//            }
+//        });
         for (Dog d : dogs) {
             System.out.println(d.getName() + "：" + d.getAge());
         }
     }
 }
 
+class DogComparator implements Comparator<Dog> {
+    @Override
+    public int compare(Dog o1, Dog o2) {
+        return o1.getAge() - o2.getAge();
+    }
+}
+
 class Dog implements Comparable<Dog> {
+    //class Dog {
     private String name;
     private int age;
 
