@@ -1,6 +1,7 @@
 package com.interview.chapter3;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Section2 {
     public static void main(String[] args) {
@@ -56,5 +57,47 @@ public class Section2 {
         linkedHashMap.put("ant", "ant");
         System.out.println(linkedHashMap);
 
+        // -------------------------- hashCode 和 equals 测试 ----------------------------
+        HashMap<Person, Integer> map = new HashMap<>();
+        Person person = new Person(18);
+        map.put(person, 1);
+        System.out.println(map.get(new Person(18)));
+    }
+}
+
+class Person {
+    private Integer age;
+
+    public boolean equals(Object o) {
+        if (o == null || !(o instanceof Person)) {
+            return false;
+        } else {
+            return this.getAge().equals(((Person) o).getAge());
+        }
+    }
+
+    //    public int hashCode() {
+//        return age.hashCode();
+//    }
+    public Person(int age) {
+        this.age = age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public static void main(String[] args) {
+//        HashMap<Person, Integer> hashMap = new HashMap<>();
+        Person p1 = new Person(18);
+        Person p2 = new Person(18);
+        System.out.println(p1.equals(p2));
+        System.out.println(p1.hashCode() + " : " + p2.hashCode());
+//        hashMap.put(person, 1);
+//        System.out.println(hashMap.get(new Person(18)));
     }
 }
