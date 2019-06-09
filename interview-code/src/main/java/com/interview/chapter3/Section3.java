@@ -1,12 +1,25 @@
 package com.interview.chapter3;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 public class Section3 {
     public static void main(String[] args) {
+        // --------------------- Iterator 使用 ---------------------
+        List<String> list = new ArrayList<>();
+        list.add("Java");
+        list.add("Java虚拟机");
+        list.add("Java中文社群");
+        Iterator iter = list.iterator();
+        // 遍历
+        while (iter.hasNext()) {
+            String str = (String) iter.next();
+            if (str.equals("Java中文社群")) {
+                iter.remove();
+            }
+        }
+        System.out.println(list);
 
+        // --------------------- HashMap 的几种循环方式 ---------------------
         Map<String, String> hashMap = new HashMap();
         hashMap.put("name", "老王");
         hashMap.put("sex", "你猜");
@@ -33,7 +46,5 @@ public class Section3 {
         for (Object k : hashMap.keySet()) {
             System.out.println(k + ":" + hashMap.get(k));
         }
-
-
     }
 }
