@@ -12,30 +12,30 @@ public class Section4 {
 
     public static void main(String[] args) throws InterruptedException {
 
-//        // --------------------- LinkedList 使用 ---------------------
-//        Queue<String> linkedList = new LinkedList<>();
-//        linkedList.add("Dog");
-//        linkedList.add("Camel");
-//        linkedList.add("Cat");
-//        for (String item : linkedList) {
-//            System.out.println(item);
-//        }
+        // --------------------- LinkedList 使用 ---------------------
+        Queue<String> linkedList = new LinkedList<>();
+        linkedList.add("Dog");
+        linkedList.add("Camel");
+        linkedList.add("Cat");
+        while (!linkedList.isEmpty()) {
+            System.out.println(linkedList.poll());
+        }
 
-//        // --------------------- PriorityQueue 使用 ---------------------
-//        Queue<Integer> priorityQueue = new PriorityQueue(new Comparator<Integer>() {
-//            @Override
-//            public int compare(Integer o1, Integer o2) {
-//                // 非自然排序，数字倒序
-//                return o2 - o1;
-//            }
-//        });
-//        priorityQueue.add(3);
-//        priorityQueue.add(1);
-//        priorityQueue.add(2);
-//        while (!priorityQueue.isEmpty()) {
-//            Integer i = priorityQueue.poll();
-//            System.out.println(i);
-//        }
+        // --------------------- PriorityQueue 使用 ---------------------
+        Queue<Integer> priorityQueue = new PriorityQueue(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                // 非自然排序，数字倒序
+                return o2 - o1;
+            }
+        });
+        priorityQueue.add(3);
+        priorityQueue.add(1);
+        priorityQueue.add(2);
+        while (!priorityQueue.isEmpty()) {
+            Integer i = priorityQueue.poll();
+            System.out.println(i);
+        }
 
         // --------------------- DelayQueue 延迟队列 ---------------------
         DelayQueue delayQueue = new DelayQueue();
@@ -60,14 +60,17 @@ public class Section4 {
     static class DelayElement implements Delayed {
         // 延迟截止时间（单面：毫秒）
         long delayTime = System.currentTimeMillis();
+
         public DelayElement(long delayTime) {
             this.delayTime = (this.delayTime + delayTime);
         }
+
         @Override
         // 获取剩余时间
         public long getDelay(TimeUnit unit) {
             return unit.convert(delayTime - System.currentTimeMillis(), TimeUnit.MILLISECONDS);
         }
+
         @Override
         // 队列里元素的排序依据
         public int compareTo(Delayed o) {
@@ -79,6 +82,7 @@ public class Section4 {
                 return 0;
             }
         }
+
         @Override
         public String toString() {
             return simpleDateFormat.format(new Date(delayTime));
