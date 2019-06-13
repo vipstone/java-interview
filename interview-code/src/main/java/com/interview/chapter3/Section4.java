@@ -1,5 +1,6 @@
 package com.interview.chapter3;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.BlockingDeque;
@@ -8,10 +9,8 @@ import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 public class Section4 {
-    static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     public static void main(String[] args) throws InterruptedException {
-
         // --------------------- LinkedList 使用 ---------------------
         Queue<String> linkedList = new LinkedList<>();
         linkedList.add("Dog");
@@ -42,19 +41,11 @@ public class Section4 {
         delayQueue.put(new DelayElement(1000));
         delayQueue.put(new DelayElement(3000));
         delayQueue.put(new DelayElement(5000));
-        System.out.println("当前时间：" + simpleDateFormat.format(new Date()));
+        System.out.println("开始时间：" +  DateFormat.getDateTimeInstance().format(new Date()));
         while (!delayQueue.isEmpty()){
             System.out.println(delayQueue.take());
         }
-        System.out.println("结束时间：" + simpleDateFormat.format(new Date()));
-        /* 执行结果：
-            当前时间：2019-06-12 20:34:55
-            2019-06-12 20:34:56
-            2019-06-12 20:34:58
-            2019-06-12 20:35:00
-            结束时间：2019-06-12 20:35:00
-         */
-
+        System.out.println("结束时间：" +  DateFormat.getDateTimeInstance().format(new Date()));
     }
 
     static class DelayElement implements Delayed {
@@ -85,7 +76,7 @@ public class Section4 {
 
         @Override
         public String toString() {
-            return simpleDateFormat.format(new Date(delayTime));
+            return DateFormat.getDateTimeInstance().format(new Date(delayTime));
         }
     }
 

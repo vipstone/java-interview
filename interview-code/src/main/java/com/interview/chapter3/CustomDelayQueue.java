@@ -1,5 +1,6 @@
 package com.interview.chapter3;
 
+import java.text.DateFormat;
 import java.util.Date;
 import java.util.Random;
 import java.util.concurrent.DelayQueue;
@@ -49,7 +50,7 @@ public class CustomDelayQueue {
                     }
                     // 组合消息体
                     String message = String.format("%s，消息编号：%s 发送时间：%s 延迟：%s 秒",
-                            name, MESSAGENO.getAndIncrement(), new Date().toLocaleString(), time / 1000);
+                            name, MESSAGENO.getAndIncrement(), DateFormat.getDateTimeInstance().format(new Date()), time / 1000);
                     // 生产消息
                     delayQueue.put(new DelayedElement(message, time));
                 }
@@ -105,7 +106,7 @@ public class CustomDelayQueue {
         @Override
         public String toString() {
             // 打印消息
-            return message + " |执行时间：" + new Date().toLocaleString();
+            return message + " |执行时间：" + DateFormat.getDateTimeInstance().format(new Date());
         }
     }
 }
