@@ -2,7 +2,7 @@ package com.interview.chapter3;
 
 import java.util.*;
 
-class Section1 {
+public class Section1 {
     public static void main(String[] args) {
         // -------------------------- Vector 使用代码 ----------------------------
         Vector vector = new Vector();
