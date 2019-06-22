@@ -9,20 +9,29 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!-- fastjson JSON 转换工具 -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.58</version>
         </dependency>
+        <!-- apache 通用工具类 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.9</version>
         </dependency>
+        <!-- hessian 一个轻量级的序列化框架 -->
         <dependency>
             <groupId>com.caucho</groupId>
             <artifactId>hessian</artifactId>
             <version>4.0.60</version>
+        </dependency>
+        <!-- cglib 动态代理 -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.12</version>
         </dependency>
     </dependencies>
 
