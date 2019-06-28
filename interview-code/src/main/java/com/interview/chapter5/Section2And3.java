@@ -5,12 +5,13 @@ import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
-public class Section2 {
+public class Section2And3 {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         // 创建线程池
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2, 10,
-                10L, TimeUnit.SECONDS, new LinkedBlockingQueue());
+                10L, TimeUnit.SECONDS, new LinkedBlockingQueue(100));
         // execute 使用
         threadPoolExecutor.execute(new Runnable() {
             @Override
@@ -102,5 +103,44 @@ public class Section2 {
             });
         }
         Thread.sleep(5000);
+        // ThreadPoolExecutor 七个参数的使用示例
+        ThreadPoolExecutor threadPool = new ThreadPoolExecutor(1, 1,
+                10L, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>(2),
+                new MyThreadFactory(), new ThreadPoolExecutor.CallerRunsPolicy());
+        threadPool.allowCoreThreadTimeOut(true);
+        for (int i = 0; i < 10; i++) {
+            threadPool.execute(new Runnable() {
+                @Override
+                public void run() {
+                    System.out.println(Thread.currentThread().getName());
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+        }
+    }
+}
+
+class MyThreadFactory implements ThreadFactory {
+    private AtomicInteger count = new AtomicInteger(0);
+
+    @Override
+    public Thread newThread(Runnable r) {
+        Thread t = new Thread(r);
+        String threadName = "MyThread" + count.addAndGet(1);
+        t.setName(threadName);
+        return t;
+    }
+}
+
+class MyRejectedExecutionHandler implements RejectedExecutionHandler {
+
+    @Override
+    public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
+        // 记录异常、报警处理等
+        System.out.println("Error Message.");
     }
 }
