@@ -2,12 +2,12 @@ package com.interview.chapter5;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.*;
 
 public class Section2 {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-
         // 创建线程池
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2, 10,
                 10L, TimeUnit.SECONDS, new LinkedBlockingQueue());
@@ -93,7 +93,14 @@ public class Section2 {
             System.out.println("ThreadPool：" + LocalDateTime.now());
         }, 1L, TimeUnit.SECONDS);
         System.out.println("CurrentTime：" + LocalDateTime.now());
-
-
+        // newWorkStealingPool 使用
+        ExecutorService workStealingPool = Executors.newWorkStealingPool();
+        for (int i = 0; i < 10; i++) {
+            int finalNumber = i;
+            workStealingPool.execute(() -> {
+                    System.out.println(finalNumber);
+            });
+        }
+        Thread.sleep(5000);
     }
 }
