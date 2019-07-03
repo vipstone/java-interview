@@ -33,6 +33,12 @@
             <artifactId>cglib</artifactId>
             <version>3.2.12</version>
         </dependency>
+        <!-- rocketmq -->
+        <dependency>
+            <groupId>com.alibaba.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>3.6.2.Final</version>
+        </dependency>
     </dependencies>
 
     <build>
