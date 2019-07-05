@@ -1,13 +1,11 @@
-package com.interview.chapter5;
+package com.interview;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
-import java.util.List;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Section2And3 {
+public class Lesson5_2 {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         // 创建线程池
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2, 10,

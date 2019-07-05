@@ -1,4 +1,4 @@
-package com.interview.chapter4;
+package com.interview;
 
 import javafx.scene.input.DataFormat;
 
@@ -16,7 +16,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.*;
 
-public class Section1 {
+public class Lesson4_1 {
     public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
         // Writer使用
         Writer writer = new FileWriter("d:\\io.txt",false);

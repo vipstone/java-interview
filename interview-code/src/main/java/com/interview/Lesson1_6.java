@@ -1,4 +1,4 @@
-package com.interview.chapter1;
+package com.interview;
 
 
 import java.sql.Timestamp;
@@ -15,7 +15,7 @@ import java.util.Date;
  * @Author wanglei
  * @Date 2019/5/2
  **/
-public class Section6 {
+public class Lesson1_6 {
     public static void main(String[] args) throws ParseException, InterruptedException {
         /********** 获取当前时间的几种方式 **********/
         Date date = new Date(); // 获取当前日期

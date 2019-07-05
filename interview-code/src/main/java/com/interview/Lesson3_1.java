@@ -1,8 +1,8 @@
-package com.interview.chapter3;
+package com.interview;
 
 import java.util.*;
 
-public class Section1 {
+public class Lesson3_1 {
     public static void main(String[] args) {
         // -------------------------- Vector 使用代码 ----------------------------
         Vector vector = new Vector();
@@ -74,55 +74,50 @@ public class Section1 {
         }
 
         // -------------------------- 集合排序（Comparable/Comparator） ----------------------------
-        Dog[] dogs = new Dog[]{
-                new Dog("老旺财", 10),
-                new Dog("小旺财", 3),
-                new Dog("二旺财", 5),
+        DogComp[] dogs = new DogComp[]{
+                new DogComp("老旺财", 10),
+                new DogComp("小旺财", 3),
+                new DogComp("二旺财", 5),
         };
 //        // Comparable 排序
 //        Arrays.sort(dogs);
         // Comparator 排序
-        Arrays.sort(dogs,new DogComparator());
-//        // Comparator 排序（简化版）
-//        Arrays.sort(dogs, new Comparator<Dog>() {
-//            @Override
-//            public int compare(Dog o1, Dog o2) {
-//                return o1.getAge() - o2.getAge();
-//            }
-//        });
-        for (Dog d : dogs) {
+        Arrays.sort(dogs, new DogComparator());
+        for (DogComp d : dogs) {
             System.out.println(d.getName() + "：" + d.getAge());
         }
     }
+
+    static class DogComparator implements Comparator<DogComp> {
+        @Override
+        public int compare(DogComp o1, DogComp o2) {
+            return o1.getAge() - o2.getAge();
+        }
+    }
+
+    static class DogComp implements Comparable<DogComp> {
+        private String name;
+        private int age;
+
+        @Override
+        public int compareTo(DogComp o) {
+            return age - o.age;
+        }
+
+        public DogComp(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public int getAge() {
+            return age;
+        }
+    }
+
 }
 
-class DogComparator implements Comparator<Dog> {
-    @Override
-    public int compare(Dog o1, Dog o2) {
-        return o1.getAge() - o2.getAge();
-    }
-}
 
-class Dog implements Comparable<Dog> {
-    //class Dog {
-    private String name;
-    private int age;
-
-    @Override
-    public int compareTo(Dog o) {
-        return age - o.age;
-    }
-
-    public Dog(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-}

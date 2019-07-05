@@ -1,9 +1,9 @@
-package com.interview.chapter5;
+package com.interview;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Section5 {
+public class Lesson5_5 {
     static int number = 0;
 
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package com.interview.chapter4;
+package com.interview;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 
 class ReflectTest {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, InstantiationException {
-        Class myClass = Class.forName("com.interview.chapter4.MyReflect");
+        Class myClass = Class.forName("com.interview.MyReflect");
         // 调用静态方法
         Method method = myClass.getMethod("staticMd");
         method.invoke(myClass);

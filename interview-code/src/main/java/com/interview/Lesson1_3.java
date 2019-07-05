@@ -1,6 +1,6 @@
-package com.interview.chapter1;
+package com.interview;
 
-public class Section3 {
+public class Lesson1_3 {
     public static void main(String[] args) {
         /************** String 引用对比 **************/
         String s1 = "laowang";

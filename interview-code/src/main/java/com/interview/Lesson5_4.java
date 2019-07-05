@@ -1,4 +1,4 @@
-package com.interview.chapter5;
+package com.interview;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

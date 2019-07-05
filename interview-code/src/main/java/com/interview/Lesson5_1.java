@@ -1,11 +1,6 @@
-package com.interview.chapter5;
+package com.interview;
 
-import javafx.scene.input.DataFormat;
-
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
 import java.util.concurrent.Callable;
 
 class ThreadTest {

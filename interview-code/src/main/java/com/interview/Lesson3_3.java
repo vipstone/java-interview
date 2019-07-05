@@ -1,8 +1,8 @@
-package com.interview.chapter3;
+package com.interview;
 
 import java.util.*;
 
-public class Section3 {
+public class Lesson3_3 {
     public static void main(String[] args) {
         // --------------------- Iterator 使用 ---------------------
         List<String> list = new ArrayList<>();

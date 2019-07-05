@@ -1,4 +1,4 @@
-package com.interview.chapter2;
+package com.interview;
 
 import com.alibaba.fastjson.JSON;
 import com.caucho.hessian.io.HessianInput;

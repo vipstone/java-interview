@@ -1,6 +1,6 @@
-package com.interview.chapter2;
+package com.interview;
 
-public class Section1 {
+public class Lesson2_1 {
     public static void main(String[] args) throws CloneNotSupportedException {
         /********** 克隆 **********/
         CloneInstance ct = new CloneInstance();

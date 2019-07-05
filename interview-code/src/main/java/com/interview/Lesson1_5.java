@@ -1,4 +1,4 @@
-package com.interview.chapter1;
+package com.interview;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Section5 {
+public class Lesson1_5 {
     public static void main(String[] args) {
         /******** try-catch-finally 基本使用 ********/
         try {

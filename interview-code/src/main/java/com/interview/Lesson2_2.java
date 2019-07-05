@@ -1,4 +1,4 @@
-package com.interview.chapter2;
+package com.interview;
 
 /*********** 1、成员内部类（可以使用任意修饰符） **********/
 class InnerTest {

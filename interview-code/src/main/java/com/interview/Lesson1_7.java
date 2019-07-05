@@ -1,4 +1,4 @@
-package com.interview.chapter1;
+package com.interview;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Section7 {
+public class Lesson1_7 {
     public static void main(String[] args) {
         /********** 数组传参示例 **********/
         int[] intArray = {2, 3, 4, 8};

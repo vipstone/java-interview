@@ -1,9 +1,8 @@
-package com.interview.chapter3;
+package com.interview;
 
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
 
-public class Section2 {
+public class Lesson3_2 {
     public static void main(String[] args) {
 
         Map hashMap = new HashMap();

@@ -1,4 +1,4 @@
-package com.interview.chapter3;
+package com.interview.other;
 
 import java.text.DateFormat;
 import java.util.Date;

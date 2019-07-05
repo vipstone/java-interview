@@ -1,4 +1,4 @@
-package com.interview.chapter2;
+package com.interview;
 
 abstract class AbstractAnimal {
     public AbstractAnimal() {
