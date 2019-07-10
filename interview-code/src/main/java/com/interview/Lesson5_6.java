@@ -1,5 +1,6 @@
 package com.interview;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.*;
 
 public class Lesson5_6 {
@@ -36,6 +37,26 @@ public class Lesson5_6 {
         for (int i = 0; i < 4; i++) {
             new Thread(new CyclicWorker(cyclicBarrier)).start();
         }
+        // Semaphore 使用
+        Semaphore semaphore = new Semaphore(2);
+        ThreadPoolExecutor semaphoreThread = new ThreadPoolExecutor(10, 50,
+                60, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
+        for (int i = 0; i < 7; i++) {
+            semaphoreThread.execute(() -> {
+                try {
+                    // 堵塞获取许可
+                    semaphore.acquire();
+                    System.out.println("Thread：" + Thread.currentThread().getName() + " 时间：" + LocalDateTime.now());
+                    TimeUnit.SECONDS.sleep(2);
+                    // 释放许可
+                    semaphore.release();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            });
+        }
+
+
     }
 
     static class CyclicWorker implements Runnable {
