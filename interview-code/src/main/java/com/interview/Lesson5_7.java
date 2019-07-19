@@ -40,10 +40,18 @@ public class Lesson5_7 {
                 rwLock.write();
             }
         }, "w2").start();
+        // AtomicStampedReference（解决 ABA 问题）使用演示
+        String name = "老王";
+        String newName = "Java";
+        AtomicStampedReference<String> as = new AtomicStampedReference<String>(name, 1);
+        System.out.println("值：" + as.getReference() + " | Stamp：" + as.getStamp());
+        as.compareAndSet(name, newName, as.getStamp(), as.getStamp() + 1);
+        System.out.println("值：" + as.getReference() + " | Stamp：" + as.getStamp());
     }
 
     static class MyReadWriteLock {
         ReadWriteLock lock = new ReentrantReadWriteLock();
+
         public void read() {
             try {
                 lock.readLock().lock();
