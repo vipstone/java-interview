@@ -52,5 +52,13 @@ public class Lesson1_2 {
             set.remove(i - 1);
         }
         System.out.println(set.size());
+        // new Integer(n) 和 Integer.valueOf(n) 的区别
+        Integer v1 = new Integer(10);
+        Integer v2 = new Integer(10);
+        Integer v3 = Integer.valueOf(10);
+        Integer v4 = Integer.valueOf(10);
+        System.out.println(v1 == v2);
+        System.out.println(v2 == v3);
+        System.out.println(v3 == v4);
     }
 }
