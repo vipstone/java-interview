@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class Lesson1_6 {
     public static void main(String[] args) throws ParseException, InterruptedException {
-        // 时间操作 JDK 8 以前
+        // 【时间操作 JDK 8 之前】
         // 获得当前时间
         Date date = new Date();
         System.out.println(date);
@@ -39,7 +39,7 @@ public class Lesson1_6 {
         // 获得昨天此刻的时间
         calendar.add(Calendar.DATE, -1);
         System.out.println(calendar.getTime());
-        // JDK 8 时间操作
+        // 【JDK 8 时间操作】
         // 相隔时间
         LocalDateTime dt1 = LocalDateTime.now();
         LocalDateTime dt2 = dt1.plusSeconds(60);
@@ -75,6 +75,10 @@ public class Lesson1_6 {
         LocalDateTime today = LocalDateTime.now();
         LocalDateTime yesterday = today.plusDays(-1);
         System.out.println(yesterday);
+        // 字符串转换为时间
+        String timeStr = "2019-10-10 06:06:06";
+        LocalDateTime dateTime = LocalDateTime.parse(timeStr,DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        System.out.println(dateTime);
         // 获取本月的最后一天（JDK 8 之前）
         Calendar ca = Calendar.getInstance();
         ca.set(Calendar.DAY_OF_MONTH, ca.getActualMaximum(Calendar.DAY_OF_MONTH));
