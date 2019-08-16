@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Lesson1_5 {
     public static void main(String[] args) {
-        /******** try-catch-finally 基本使用 ********/
+        // try-catch-finally 基本使用
         try {
             int i = 10 / 0;
         } catch (ArithmeticException e) {
@@ -17,7 +17,7 @@ public class Lesson1_5 {
         } finally {
             System.out.println("finally");
         }
-        /******** 多 catch 使用********/
+        // 多 catch 使用
         try {
             int i = Integer.parseInt(null);
         } catch (ArithmeticException ae) {
@@ -27,7 +27,7 @@ public class Lesson1_5 {
         } catch (Exception e) {
             System.out.println("Exception");
         }
-        /******** 使用 try-catch 处理业务 ********/
+        // 使用 try-catch 处理业务
         // 引用 com.alibaba.fastjson
         JSONArray array = new JSONArray();
         String jsonStr = "{'name':'laowang'}";
@@ -37,7 +37,7 @@ public class Lesson1_5 {
             array.add(JSONObject.parse(jsonStr));
         }
         System.out.println(array.size());
-        /******** ry-catch 处理业务的正确使用方式 ********/
+        // ry-catch 处理业务的正确使用方式
         if (null != jsonStr && !jsonStr.equals("")) {
             String firstChar = jsonStr.substring(0, 1);
             if (firstChar.equals("{")) {
@@ -53,7 +53,7 @@ public class Lesson1_5 {
             array.add(JSONObject.parse(jsonStr));
         }
         System.out.println(array.size());
-        /********** Integer.parseInt 和 Double.parseDouble 的异常类型 **********/
+        // Integer.parseInt 和 Double.parseDouble 的异常类型
         try {
             Integer.parseInt(null);
         } catch (Exception e) {
@@ -64,14 +64,14 @@ public class Lesson1_5 {
         } catch (Exception e) {
             System.out.println(e);
         }
-        /********** try-with-resources 和 multiple catch **********/
+        // try-with-resources 和 multiple catch
         try (FileReader fileReader = new FileReader("");
              FileWriter fileWriter = new FileWriter("")) { // Try-with-resources
             System.out.println("try");
         } catch (IOException | NullPointerException e) { // Multiple catch
             System.out.println(e);
         }
-        /********** finally 中发生的异常 **********/
+        // finally 中发生的异常
         try {
             System.out.println("try");
         } catch (Exception e) {
@@ -80,5 +80,17 @@ public class Lesson1_5 {
             int k = 3 / 0;
             System.out.println("finally");
         }
+        // fiannly 返回值演示
+        System.out.println(getNumber());
     }
+
+    public static int getNumber() {
+        try {
+            int number = 0 / 1;
+            return 2;
+        } finally {
+            return 3;
+        }
+    }
+
 }
