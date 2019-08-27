@@ -1,0 +1,4 @@
+server:
+  port: 8086
+app:
+  name: 简体中文
