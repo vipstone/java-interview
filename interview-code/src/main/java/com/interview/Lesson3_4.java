@@ -3,15 +3,12 @@ package com.interview;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.concurrent.BlockingDeque;
-import java.util.concurrent.DelayQueue;
-import java.util.concurrent.Delayed;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 public class Lesson3_4 {
 
     public static void main(String[] args) throws InterruptedException {
-        // --------------------- LinkedList 使用 ---------------------
+        // LinkedList 使用
         Queue<String> linkedList = new LinkedList<>();
         linkedList.add("Dog");
         linkedList.add("Camel");
@@ -19,8 +16,7 @@ public class Lesson3_4 {
         while (!linkedList.isEmpty()) {
             System.out.println(linkedList.poll());
         }
-
-        // --------------------- PriorityQueue 使用 ---------------------
+        // PriorityQueue 使用
         Queue<Integer> priorityQueue = new PriorityQueue(new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
@@ -35,8 +31,7 @@ public class Lesson3_4 {
             Integer i = priorityQueue.poll();
             System.out.println(i);
         }
-
-        // --------------------- DelayQueue 延迟队列 ---------------------
+        // DelayQueue 延迟队列使用
         DelayQueue delayQueue = new DelayQueue();
         delayQueue.put(new DelayElement(1000));
         delayQueue.put(new DelayElement(3000));
@@ -46,6 +41,13 @@ public class Lesson3_4 {
             System.out.println(delayQueue.take());
         }
         System.out.println("结束时间：" +  DateFormat.getDateTimeInstance().format(new Date()));
+        // ConcurrentLinkedQueue 使用
+        ConcurrentLinkedQueue concurrentLinkedQueue = new ConcurrentLinkedQueue();
+        concurrentLinkedQueue.add("Dog");
+        concurrentLinkedQueue.add("Cat");
+        while (!concurrentLinkedQueue.isEmpty()) {
+            System.out.println(concurrentLinkedQueue.poll());
+        }
     }
 
     static class DelayElement implements Delayed {
