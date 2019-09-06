@@ -1,43 +1,194 @@
 package com.interview;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.DelayQueue;
-import java.util.concurrent.LinkedBlockingQueue;
+import javax.crypto.NoSuchPaddingException;
+import java.security.NoSuchAlgorithmException;
+import java.util.*;
 
 public class Lesson7_3 {
-    public static void main(String[] args) {
-//        // 单例模式
-//        Singleton singleton1 = Singleton.getInstance();
-//        Singleton singleton2 = Singleton.getInstance();
-//        System.out.println(singleton1 == singleton2);   // output:true
-//        // 抽象工厂
-//        String result = (new CoffeeFactory()).createProduct("Latte");
-//        System.out.println(result); // output:拿铁
-//        //-------------- 观察者模式 START --------------
-//        // 定义发布者
-//        ConcreteSubject concreteSubject = new ConcreteSubject();
-//        // 定义订阅者
-//        ConcrereObserver concrereObserver = new ConcrereObserver("老王");
-//        ConcrereObserver concrereObserver2 = new ConcrereObserver("Java");
-//        // 添加订阅
-//        concreteSubject.attach(concrereObserver);
-//        concreteSubject.attach(concrereObserver2);
-//        // 发布信息
-//        concreteSubject.notify("更新了");
-//        //-------------- 观察者模式 END --------------
-//        // 装饰器模式
-//        LaoWang laoWang = new LaoWang();
-//        Jacket jacket = new Jacket(laoWang);
-//        Hat hat = new Hat(jacket);
-//        hat.show();
-            // 模板方法模式
-
+    public static void main(String[] args) throws NoSuchAlgorithmException, NoSuchPaddingException {
+        // 单例模式
+        Singleton singleton1 = Singleton.getInstance();
+        Singleton singleton2 = Singleton.getInstance();
+        System.out.println(singleton1 == singleton2);   // output:true
+        // 抽象工厂
+        String result = (new CoffeeFactory()).createProduct("Latte");
+        System.out.println(result); // output:拿铁
+        //-------------- 观察者模式 START --------------
+        // 定义发布者
+        ConcreteSubject concreteSubject = new ConcreteSubject();
+        // 定义订阅者
+        ConcrereObserver concrereObserver = new ConcrereObserver("老王");
+        ConcrereObserver concrereObserver2 = new ConcrereObserver("Java");
+        // 添加订阅
+        concreteSubject.attach(concrereObserver);
+        concreteSubject.attach(concrereObserver2);
+        // 发布信息
+        concreteSubject.notify("更新了");
+        //-------------- 观察者模式 END --------------
+        // 装饰器模式
+        LaoWang laoWang = new LaoWang();
+        Jacket jacket = new Jacket(laoWang);
+        Hat hat = new Hat(jacket);
+        hat.show();
+        // 模板方法模式
+        Refrigerator refrigerator = new Banana();
+        refrigerator.open();
+        refrigerator.put();
+        refrigerator.close();
+        // 代理模式
+        IAirTicket airTicket = new ProxyAirTicket();
+        airTicket.buy();
+        // 策略模式
+        Trip trip = new Trip(new Bike());
+        trip.doTrip();
+        // 适配器模式
+        TypeC typeC = new TypeC();
+        MicroUSB microUSB = new AdapterMicroUSB(typeC);
+        microUSB.charger();
     }
 }
 
-//------------- 模板方法模式 START -------------
+//------------- 适配器模式 START -------------
+/*
+ * 传统的充电线 MicroUSB
+ */
+interface MicroUSB {
+    void charger();
+}
 
+/*
+ * TypeC 充电口
+ */
+interface ITypeC {
+    void charger();
+}
+
+class TypeC implements ITypeC {
+    @Override
+    public void charger() {
+        System.out.println("TypeC 充电");
+    }
+}
+
+/*
+ * 适配器
+ */
+class AdapterMicroUSB implements MicroUSB {
+    private TypeC typeC;
+
+    public AdapterMicroUSB(TypeC typeC) {
+        this.typeC = typeC;
+    }
+
+    @Override
+    public void charger() {
+        typeC.charger();
+    }
+}
+//------------- 适配器模式 END -------------
+
+//------------- 策略模式 START -------------
+/*
+ * 声明旅行
+ */
+interface ITrip {
+    void going();
+}
+
+class Bike implements ITrip {
+    @Override
+    public void going() {
+        System.out.println("骑自行车");
+    }
+}
+
+class Drive implements ITrip {
+    @Override
+    public void going() {
+        System.out.println("开车");
+    }
+}
+
+/*
+ * 出行类
+ */
+class Trip {
+    private ITrip trip;
+
+    public Trip(ITrip trip) {
+        this.trip = trip;
+    }
+
+    public void doTrip() {
+        this.trip.going();
+    }
+}
+//------------- 策略模式 END -------------
+
+//------------- 代理模式 START -------------
+/*
+ * 定义售票接口
+ */
+interface IAirTicket {
+    void buy();
+}
+
+/*
+ * 定义飞机场售票
+ */
+class AirTicket implements IAirTicket {
+    @Override
+    public void buy() {
+        System.out.println("买票");
+    }
+}
+
+/*
+ * 代理售票平台
+ */
+class ProxyAirTicket implements IAirTicket {
+
+    private AirTicket airTicket;
+
+    public ProxyAirTicket() {
+        airTicket = new AirTicket();
+    }
+
+    @Override
+    public void buy() {
+        airTicket.buy();
+    }
+}
+//------------- 代理模式 END -------------
+
+//------------- 模板方法模式 START -------------
+abstract class Refrigerator {
+    public void open() {
+        System.out.println("开冰箱门");
+    }
+
+    public abstract void put();
+
+    public void close() {
+        System.out.println("关冰箱门");
+    }
+}
+
+class Banana extends Refrigerator {
+
+    @Override
+    public void put() {
+        System.out.println("放香蕉");
+    }
+}
+
+class Apple extends Refrigerator {
+
+    @Override
+    public void put() {
+        System.out.println("放苹果");
+    }
+}
 //------------- 模板方法模式 END -------------
 
 //------------- 装饰器模式 START -------------
