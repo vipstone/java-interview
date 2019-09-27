@@ -33,13 +33,13 @@
 
 ### 课程目录
 
-[开篇词|如何轻松获得Offer](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
+[开篇词|如何轻松获得Offer](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9/topic/5d493cfecb702a087ef935e5)
 
 ### 第一章
 
-[第1-1课：Java程序是如何执行的？](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
+[第1-1课：Java程序是如何执行的？](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9/topic/5d4d72a269004b174ccfff43)
 
-[第1-2课：你不知道的基础数据类型和包装类——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
+[第1-2课：你不知道的基础数据类型和包装类——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9/topic/5d4d775d69004b174ccfff5c)
 
 [第1-3课：深入理解字符串——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
