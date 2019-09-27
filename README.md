@@ -33,90 +33,90 @@
 
 ### 课程目录
 
-[开篇词|如何轻松获得Offer](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[开篇词|如何轻松获得Offer](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
 ### 第一章
 
-[第1-1课：Java程序是如何执行的？](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第1-1课：Java程序是如何执行的？](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第1-2课：你不知道的基础数据类型和包装类——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第1-2课：你不知道的基础数据类型和包装类——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第1-3课：深入理解字符串——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第1-3课：深入理解字符串——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第1-4课：Java中的运算符和流程控制——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第1-4课：Java中的运算符和流程控制——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第1-5课：深入了解Java中的异常处理——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第1-5课：深入了解Java中的异常处理——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第1-6课：玩转时间——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第1-6课：玩转时间——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第1-7课：数组和排序算法——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第1-7课：数组和排序算法——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
 ### 第二章
 
-[第2-1课：类与Object——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第2-1课：类与Object——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第2-2课：各种内部类和枚举类——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第2-2课：各种内部类和枚举类——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第2-3课：抽象类和接口——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第2-3课：抽象类和接口——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第2-4课：克隆和序列化——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第2-4课：克隆和序列化——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
 ### 第三章
 
-[第3-1课：集合详解（上）——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第3-1课：集合详解（上）——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第3-2课：集合详解（下）——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第3-2课：集合详解（下）——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第3-3课：泛型和迭代器——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第3-3课：泛型和迭代器——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第3-4课：数据结构：队列详解——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第3-4课：数据结构：队列详解——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
 ### 第四章
 
-[第4-1课：BIO、NIO、AIO详解——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第4-1课：BIO、NIO、AIO详解——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第4-2课：反射和动态代理——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第4-2课：反射和动态代理——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
 ### 第五章
 
-[第5-1课：线程与死锁——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第5-1课：线程与死锁——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第5-2课：线程池—ThreadPoolExecutor——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第5-2课：线程池—ThreadPoolExecutor——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第5-3课：线程池—Executors——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第5-3课：线程池—Executors——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第5-4课：ThreadLocal详解——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第5-4课：ThreadLocal详解——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第5-5课：线程安全—synchronized和ReentrantLock——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第5-5课：线程安全—synchronized和ReentrantLock——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第5-6课：Java并发包中的高级同步工具——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第5-6课：Java并发包中的高级同步工具——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第5-7课：Java中的各种锁和CAS——附面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第5-7课：Java中的各种锁和CAS——附面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
 ### 第六章
 
-[第6-1课：Spring核心和面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第6-1课：Spring核心和面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第6-2课：SpringMVC核心和面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第6-2课：SpringMVC核心和面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第6-3课：SpringBoot核心和面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第6-3课：SpringBoot核心和面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第6-4课：MyBatis核心和面试题](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第6-4课：MyBatis核心和面试题](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第6-5课：消息队列面试题汇总](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第6-5课：消息队列面试题汇总](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第6-6课：Java分布式框架面试题合集](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第6-6课：Java分布式框架面试题合集](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
 ### 第七章
 
-[第7-1课：MySQL面试题汇总](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第7-1课：MySQL面试题汇总](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第7-2课：Redis面试题汇总](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第7-2课：Redis面试题汇总](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第7-3课：设计模式常见面试题汇总](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第7-3课：设计模式常见面试题汇总](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第7-4课：算法常用面试题汇总](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第7-4课：算法常用面试题汇总](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第7-5课：JVM面试题汇总](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第7-5课：JVM面试题汇总](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
 
-[第7-6课：常见面试题翻车合集](http://gitbook.cn/m/mazi/comp/column?columnId=5d493b4dcb702a087ef935d9&sceneId=8fe42480bef111e999b161a500b903bd&utm_source=columninvitecard&utm_campaign=Java%20%E9%9D%A2%E8%AF%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%9D%A2%E8%AF%95%E9%A2%98)
+[第7-6课：常见面试题翻车合集](https://gitbook.cn/gitchat/column/5d493b4dcb702a087ef935d9)
