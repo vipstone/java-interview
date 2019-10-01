@@ -3,10 +3,25 @@ package com.interview;
 import java.util.Arrays;
 
 /**
- * 常见算法
+ * 算法
  */
 public class Lesson7_4 {
     public static void main(String[] args) {
+        // 二分法查找
+        int[] binaryNums = {1, 6, 15, 18, 27, 50};
+        int findValue = 27;
+        int binaryResult = binarySearch(binaryNums, 0, binaryNums.length - 1, findValue);
+        System.out.println("元素第一次出现的位置（从0开始）：" + binaryResult);
+
+        // 斐波那契数列
+        int fibonacciIndex = 7;
+        int fibonacciResult = fibonacci(fibonacciIndex);
+        System.out.println("下标(从0开始)" + fibonacciIndex + "的值为：" + fibonacciResult);
+
+        // 兔子的总对数
+        int rabbitNumber = fibonacci(12);
+        System.out.println("第 12 个月兔子的总对数是：" + rabbitNumber);
+
         // 冒泡排序调用
         int[] bubbleNums = {132, 110, 122, 90, 50};
         System.out.println("冒泡排序前：" + Arrays.toString(bubbleNums));
@@ -37,7 +52,47 @@ public class Lesson7_4 {
         heapSort(heapNums, heapNums.length);
         System.out.println("堆排序后：" + Arrays.toString(heapNums));
 
+    }
 
+    /**
+     * 斐波那契数列
+     * @param index 斐波那契数列的下标（从0开始）
+     * @return int
+     */
+    private static int fibonacci(int index) {
+        if (index == 0 || index == 1) {
+            return index;
+        } else {
+            return fibonacci(index - 1) + fibonacci(index - 2);
+        }
+    }
+
+    /**
+     * 二分查找，返回该值第一次出现的位置（下标从0开始）
+     * @param nums      查询数组
+     * @param start     开始下标
+     * @param end       结束下标
+     * @param findValue 要查找的值
+     * @return int
+     */
+    private static int binarySearch(int[] nums, int start, int end, int findValue) {
+        if (start <= end) {
+            // 中间位置
+            int middle = (start + end) / 2;
+            // 中间的值
+            int middleValue = nums[middle];
+            if (findValue == middleValue) {
+                // 等于中值直接返回
+                return middle;
+            } else if (findValue < middleValue) {
+                // 小于中值，在中值之前的数据中查找
+                return binarySearch(nums, start, middle - 1, findValue);
+            } else {
+                // 大于中值，在中值之后的数据中查找
+                return binarySearch(nums, middle + 1, end, findValue);
+            }
+        }
+        return -1;
     }
 
     /**
@@ -46,7 +101,7 @@ public class Lesson7_4 {
      * @param n    堆大小
      */
     private static void heapSort(int[] nums, int n) {
-        int i, j, h, k, temp;
+        int i, j, k, temp;
         // 将 nums[0,n-1] 建成大根堆
         for (i = n / 2 - 1; i >= 0; i--) {
             // 第 i 个节点，有右子树
@@ -88,7 +143,7 @@ public class Lesson7_4 {
                         j++;
                     }
                 }
-                // todo:比较 i 与 j 为序号的数据
+                // 比较 i 与 j 为序号的数据
                 if (nums[k] < nums[j]) {
                     // 交换数据
                     temp = nums[k];
