@@ -170,7 +170,7 @@ public class Lesson7_4 {
         int f, t;
         int ltemp = left;
         int rtemp = right;
-        // 分解值
+        // 分界值
         f = nums[(left + right) / 2];
         while (ltemp < rtemp) {
             while (nums[ltemp] < f) {
